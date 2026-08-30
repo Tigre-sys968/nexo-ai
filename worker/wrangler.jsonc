@@ -1,0 +1,11 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "nexo-ai-api",
+  "main": "src/index.js",
+  "compatibility_date": "2026-08-30",
+  "vars": {
+    "ALLOWED_ORIGIN": "http://localhost:5173",
+    "FREE_DAILY_MESSAGES": "25",
+    "OPENAI_MODEL": "gpt-5.6-luna"
+  }
+}
